@@ -1,0 +1,77 @@
+.card {
+    position: relative;
+    border: 1px solid #D58C51;
+    width: 22%;
+    height: 552px;
+    padding: 43px 0px 32px 15px;
+}
+
+
+
+.card-price {
+    position: relative;
+    position: absolute;
+    bottom: 30px;
+}
+
+
+.card__title {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.card:hover .card__title {
+    color: #D58C51;
+}
+
+.card__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    width: 91%;
+}
+
+.card:hover .card__description {
+    color: #D58C51;
+}
+
+.card-price__pay {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+    display: inline;
+}
+.card:hover .card-price__pay {
+    color: #D58C51;
+}
+
+.card-price__ammount {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.card:hover .card-price__ammount {
+    color: #D58C51;
+}
+
+.card-price__btn {
+    position: absolute;
+    left: 230px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 50%;
+    background-color: #161516;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    outline: none; 
+}
+.card:hover .card-price__btn {
+    background-color: #D58C51;
+    border: 2px solid #D58C51;
+}
