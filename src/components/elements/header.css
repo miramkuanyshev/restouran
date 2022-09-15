@@ -1,0 +1,33 @@
+.header__title {
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 54px 0px 0px 0px;
+}
+
+.header-basket__description {
+    width: 151px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: right;
+    color: #FFFFFF;
+    margin: 51px 20px 0px 0px;
+}
+.header-basket {
+    display: flex;
+}
+.header {
+    display: flex;
+    gap: 744px;
+    margin-bottom: 50px;
+} 
+.header-basket__icon {
+    width: 50px;
+    height: 50px;
+    margin: 48px 0px 0px 0px;
+}
+
