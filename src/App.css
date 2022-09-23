@@ -37,19 +37,3 @@
   }
 }
 
-.container {
-  width: 1300px;
-  margin: 0 auto;
-}
-.menu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 14px;
-  margin-bottom: 50px;
-  height: calc(100vh - 118px);
-  overflow-x: auto;
-}
-
-.menu::-webkit-scrollbar {
-  display: none;
-}

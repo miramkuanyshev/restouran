@@ -1,0 +1,70 @@
+a {
+  text-decoration: none;
+  cursor: default;
+  display: contents;
+}
+
+
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 5px;
+  height: calc(97vh - 118px);
+  overflow-x: auto;
+}
+
+.menu::-webkit-scrollbar {
+  display: none;
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 54px 0px 0px 0px;
+}
+
+.counter__product {
+  display: block;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.counter__price {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.header-basket {
+  display: flex;
+  margin-top: 51px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.header-basket__button {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0px 20px 0px 20px;
+  background: url(../../public/images/Group\ 71.svg);
+}
