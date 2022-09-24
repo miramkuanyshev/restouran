@@ -26,10 +26,10 @@ function Basket() {
           <h1 className="basket-header__title">Корзина с выбранными товарами</h1>
         </header>
         <section className='product'>
-          {basket.map(item => {
+          {basket.map((item, index) => {
             const { id, img, name, description, price, weight } = item;
             return (
-              <Link to={`/${name}`}>
+              <Link to={`/${name}`} key={index}>
                   <CardBasket
                   key={id}
                   id={id}

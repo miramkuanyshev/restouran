@@ -23,10 +23,10 @@ function Products() {
 
         </div>
         <div className="menu">
-          {products.map(item => {
+          {products.map((item,index) => {
             const { id, img, name, description, price, weight } = item;
             return (
-              <Link to={`/${name}`}>
+              <Link to={`/${name}`}key={index}>
                 <Card
                   key={id}
                   id={id}
