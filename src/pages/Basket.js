@@ -5,6 +5,8 @@ import Button from '../components/ui/button';
 import { useNavigate } from 'react-router-dom';
 import AuthButton from '../components/ui/authorizationbtn';
 import { Link } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import {ExitUser} from '../store/reduces/user'
 
 
 function Basket() {
@@ -12,6 +14,12 @@ function Basket() {
   const basket = useSelector(state => state.basket.basket);
   const sum = useSelector(state => state.basket.sum);
   const navigate = useNavigate();
+  const dispach = useDispatch();
+  function Exit (){
+    dispach(ExitUser())
+    navigate ('/auth')
+
+  }
 
   function BackButton() {
     navigate(-1);
@@ -20,11 +28,16 @@ function Basket() {
 
   return (
     <div className="basket-main">
-      <div className="basket-container">
-        <header className='basket-header'>
+      <header className='basket-header'>
           <Button handleClick={BackButton} type={'back'} />
           <h1 className="basket-header__title">Корзина с выбранными товарами</h1>
+          <div className="basket-header__button">
+            <AuthButton name='Выйти' type={'exit'} handleClick={Exit}/>
+          </div>
+          
         </header>
+      <div className="basket-container">
+        
         <section className='product'>
           {basket.map((item, index) => {
             const { id, img, name, description, price, weight } = item;

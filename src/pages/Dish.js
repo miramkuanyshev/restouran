@@ -5,9 +5,19 @@ import { useSelector } from 'react-redux'
 import CardInfo from '../components/elements/cardinfo';
 import { Link } from 'react-router-dom'
 import { products } from '../components/elements/products';
+import { ExitUser } from '../store/reduces/user'
+import AuthButton from '../components/ui/authorizationbtn'
+import { useDispatch } from 'react-redux';
 
 function Dish() {
     const navigate = useNavigate();
+
+    const dispach = useDispatch();
+    function Exit() {
+        dispach(ExitUser())
+        navigate('/auth')
+
+    }
 
     function BackButton() {
         navigate(-1);
@@ -27,10 +37,11 @@ function Dish() {
                     <Button handleClick={BackButton} type={'back'} />
                     <div className="descr-header__counter dish">
                         <div className="dish-block">
-                        <span className="dish-block__product"> {counter} товара </span>
-                        <span className="dish-block__price">на сумму {sum} ₽</span>
+                            <span className="dish-block__product"> {counter} товара </span>
+                            <span className="dish-block__price">на сумму {sum} ₽</span>
                         </div>
-                        <Link to={'/basket'} className="header-basket__button"></Link>                        
+                        <Link to={'/basket'} className="header-basket__button"></Link>
+                        <AuthButton name='Выйти' type={'exit'} handleClick={Exit} />
                     </div>
                 </header>
                 <div className="descr-card">

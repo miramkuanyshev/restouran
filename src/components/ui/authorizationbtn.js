@@ -8,8 +8,10 @@ function AuthButton({ name, type, handleClick }) {
     let condition = style.authbutton
     if (type === 'buy') {
         condition = style.buy
-    } else if (type === 'close') {
-        condition = style.close
+    } else if (type === 'enter') {
+        condition = style.enter
+    } else if (type === 'exit') {
+        condition = style.exit
     }
 
     return (

@@ -23,3 +23,31 @@
     border: none;
     padding: 12px 62px;
 }
+
+.enter {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #131313;
+    outline: none;
+    background: #D58C51;
+    border: none;
+    padding: 12px 77px;
+}
+
+.exit {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    border: 1px solid #D58C51;
+    color: #D58C51;
+    outline: none;
+    background: #131313;
+    padding: 12px 77px;
+    margin-right: 25px;
+
+}

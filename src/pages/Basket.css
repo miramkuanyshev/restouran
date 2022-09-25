@@ -16,10 +16,11 @@
     gap: 8%;
     margin-bottom: 38px;
     display: flex;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .basket-header__button {
-
     margin-top: 54px;
 }
 
