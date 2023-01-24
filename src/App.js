@@ -1,30 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-import Card from './components/elements/card';
-import Header from './components/elements/header';
-import {products} from './components/elements/products'
+import Products from './pages/Products';
+import Basket from './pages/Basket';
+import Dish from './pages/Dish';
+import LoginForm from './pages/enter';
+import RegForm from './pages/Reg';
+import { Route, Routes, Link } from 'react-router-dom';
 
 function App() {
-  return (
-    <div className="main">
-      <div className="container">
-        <Header/>
-        <div className="menu">
-          {products.map(key => {
-            return (
-              <Card
-              url={key.img}
-              title={key.name}
-              description={key.description} 
-              pricePay={key.price}
-              priceAmmount={key.weight}            
-              />
-            )
-          })}
 
-        </div>        
-      </div>
-    </div>
+  return (
+    <Routes>
+      <Route path='/' element={<RegForm/>}/>
+      <Route path='/auth' element={<LoginForm/>}/>
+      <Route path='/products' element={<Products />} />
+      <Route path='/basket' element={<Basket />} />
+      <Route path='/:name' element={<Dish />} />
+    </Routes>
+
+
   );
 }
 

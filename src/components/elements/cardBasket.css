@@ -1,0 +1,35 @@
+.basket {
+    display: flex;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.basket__prewiev {
+    width: 13%;
+    margin-right: 100px;
+}
+
+.basket__title {
+    width: 30%;
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.basket-price {
+    padding-top: 33px;
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+
+.basket-price__pay {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D58C51;
+    margin-right: 15px;
+    margin-top: 5px;
+}

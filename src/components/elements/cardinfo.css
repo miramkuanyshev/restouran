@@ -1,0 +1,43 @@
+.card-info__img {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.card-info {
+    display: flex;
+    gap: 200px;
+}
+
+.information__title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #D58C51;
+    width: 75%;
+    margin-top: 20px;
+}
+
+.information__descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    width: 92%;
+    margin-bottom: 50px;
+
+}
+.information-price__cost{
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.information-price__weight{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-right: 70px;
+
+}

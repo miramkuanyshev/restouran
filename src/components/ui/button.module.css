@@ -1,0 +1,29 @@
+.button {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 50%;
+    background-color: #161516;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.back {
+    width: 32px;
+    height: 32px;
+    border: 2px solid #D58C51;
+    border-radius: 50%;
+    background: url(../../../public/images/back.svg) no-repeat;
+    background-position: 50%;
+    margin-top: 54px;
+}
+
+.close {
+    width: 32px;
+    height: 32px;
+    border: 2px solid #D58C51;
+    border-radius: 50%;
+    background: url(../../../public/images/Delete.svg) no-repeat;
+    background-position: 50%;
+}
