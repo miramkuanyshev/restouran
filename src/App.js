@@ -4,20 +4,28 @@ import Basket from './pages/Basket';
 import Dish from './pages/Dish';
 import LoginForm from './pages/enter';
 import RegForm from './pages/Reg';
-import { Route, Routes, Link } from 'react-router-dom';
+import NotFounded from './pages/NotFounded';
+import { Route, Routes } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
 function App() {
 
+  const Auth = useSelector((state) => state.user.IsAuth)  
+
   return (
-    <Routes>
-      <Route path='/' element={<RegForm/>}/>
-      <Route path='/auth' element={<LoginForm/>}/>
+    (Auth?
+    <Routes>      
       <Route path='/products' element={<Products />} />
       <Route path='/basket' element={<Basket />} />
       <Route path='/:name' element={<Dish />} />
-    </Routes>
-
-
+      <Route path='/' element={<RegForm/>}/>
+      <Route path='/auth' element={<LoginForm/>}/>
+    </Routes>:
+    <Routes>
+      <Route path='/' element={<RegForm/>}/>
+      <Route path='/auth' element={<LoginForm/>}/>
+      <Route path="*" element={<NotFounded/>} />
+    </Routes>)
   );
 }
 

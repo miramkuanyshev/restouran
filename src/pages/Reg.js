@@ -18,9 +18,7 @@ function RegForm() {
     formState: { errors },
     handleSubmit,
     reset
-  } = useForm({
-    mode: 'onBlur'
-  });
+  } = useForm();
 
   const onSubmit = (data) => {
     const {login, password} = data

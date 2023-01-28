@@ -14,15 +14,15 @@ function LoginForm() {
   const navigate = useNavigate();
   const [errorParagraphText, setErrorParagraphText] = useState('')
   const validateErrorParagraph = useRef();
+  const inputStyle = { border: '1px solid red;' }
+
 
   const {
     register,
     formState: { errors },
     handleSubmit,
     reset
-  } = useForm({
-    mode: 'onBlur'
-  });
+  } = useForm();
 
   const onSubmit = (data) => {
     const {login, password} = data
@@ -65,11 +65,12 @@ function LoginForm() {
           <h2 className="login__headling">вход</h2>
 
 
-          <input className='login__input' type="text" placeholder='Логин'{...register('login', {
+          <input className='login__input' style={inputStyle} type="text" placeholder='Логин'{...register('login', {
             required: 'Поле не должно быть пустым',
             minLength: {
             value: 4,
             message: 'Логин должен содержать не менее 4-х символов'
+            
             },
           })}
           />
