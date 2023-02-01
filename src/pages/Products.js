@@ -43,7 +43,7 @@ function Products() {
                 <Card
                   key={id}
                   id={id}
-                  url={img}
+                  img={img}
                   name={name}
                   description={description}
                   pricePay={price}
