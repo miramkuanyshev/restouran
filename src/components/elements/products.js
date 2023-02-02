@@ -5,7 +5,7 @@ export const products = [
       "description":"Значимость этих проблем настолько очевидна, что укрепление и развитие структуры ",
       "price":"2700",
       "weight":"500 г",
-      "img":"restouran//images/oysters.png"
+      "img":"restouran/images/oysters.png"
     },
     {
       "id": "2",
@@ -13,7 +13,7 @@ export const products = [
       "description":"Не следует, однако забывать, что реализация намеченных плановых",
       "price":"1600",
       "weight":"750 г",
-      "img":"restouran//images/pig.png"
+      "img":"restouran/images/pig.png"
     },
     {
       "id": "3",
@@ -21,7 +21,7 @@ export const products = [
       "description":"Значимость этих проблем настолько очевидна, что укрепление и развитие структуры обеспечивает широкому кругу",
       "price":"1820",
       "weight":"7 шт",
-      "img":"restouran//images/shrimps.png"
+      "img":"restouran/images/shrimps.png"
     },
     {
       "id": "4",
@@ -29,7 +29,7 @@ export const products = [
       "description":"Значимость этих проблем настолько очевидна, что укрепление и развитие структуры ",
       "price":"2300",
       "weight":"1600 г",
-      "img":"restouran//images/pig.png"
+      "img":"restouran/images/pig.png"
     },
     {
       "id": "5",
@@ -37,7 +37,7 @@ export const products = [
       "description":"Не следует, однако забывать, что реализация намеченных плановых",
       "price":"1100",
       "weight":"900 г",
-      "img":"restouran//images/shrimps.png"
+      "img":"restouran/images/shrimps.png"
     },
     {
       "id": "6",
@@ -45,7 +45,7 @@ export const products = [
       "description":"Значимость этих проблем настолько очевидна, что укрепление и развитие структуры обеспечивает широкому кругу",
       "price":"450",
       "weight":"1 шт",
-      "img":"restouran//images/shrimps.png"
+      "img":"restouran/images/shrimps.png"
     },
     {
       "id": "7",
@@ -53,7 +53,7 @@ export const products = [
       "description":"Значимость этих проблем настолько очевидна, что укрепление и развитие структуры ",
       "price":"2700",
       "weight":"500 г",
-      "img":"restouran//images/oysters.png"
+      "img":"restouran/images/oysters.png"
     },
     {
       "id": "8",
@@ -61,6 +61,6 @@ export const products = [
       "description":"Не следует, однако забывать, что реализация намеченных плановых",
       "price":"1600",
       "weight":"750 г",
-      "img":"restouran//images/pig.png"
+      "img":"restouran/images/pig.png"
     },
   ]
