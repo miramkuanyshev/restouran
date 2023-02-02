@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1c6816d.css",
-    "main.js": "/static/js/main.0427ccb4.js",
-    "static/js/787.d9d2ce2c.chunk.js": "/static/js/787.d9d2ce2c.chunk.js",
-    "static/media/background.png": "/static/media/background.3c2663373ad5414c76d7.png",
-    "static/media/backgraund.png": "/static/media/backgraund.e4f1acdd56451cdd6b81.png",
-    "static/media/Group 71.svg": "/static/media/Group 71.1363fe210c482a130cdc.svg",
-    "static/media/Delete.svg": "/static/media/Delete.eb6d10dfc7196ed78089.svg",
-    "index.html": "/index.html",
-    "static/media/back.svg": "/static/media/back.11538c651ad6037bab84.svg",
-    "static/media/plus-btn.svg": "/static/media/plus-btn.b3f98326dbcf58b47268.svg",
-    "main.b1c6816d.css.map": "/static/css/main.b1c6816d.css.map",
-    "main.0427ccb4.js.map": "/static/js/main.0427ccb4.js.map",
-    "787.d9d2ce2c.chunk.js.map": "/static/js/787.d9d2ce2c.chunk.js.map"
+    "main.css": "/restouran/static/css/main.7a682013.css",
+    "main.js": "/restouran/static/js/main.609af5a1.js",
+    "static/js/787.d9d2ce2c.chunk.js": "/restouran/static/js/787.d9d2ce2c.chunk.js",
+    "static/media/background.png": "/restouran/static/media/background.3c2663373ad5414c76d7.png",
+    "static/media/backgraund.png": "/restouran/static/media/backgraund.e4f1acdd56451cdd6b81.png",
+    "static/media/Group 71.svg": "/restouran/static/media/Group 71.1363fe210c482a130cdc.svg",
+    "static/media/Delete.svg": "/restouran/static/media/Delete.eb6d10dfc7196ed78089.svg",
+    "index.html": "/restouran/index.html",
+    "static/media/back.svg": "/restouran/static/media/back.11538c651ad6037bab84.svg",
+    "static/media/plus-btn.svg": "/restouran/static/media/plus-btn.b3f98326dbcf58b47268.svg",
+    "main.7a682013.css.map": "/restouran/static/css/main.7a682013.css.map",
+    "main.609af5a1.js.map": "/restouran/static/js/main.609af5a1.js.map",
+    "787.d9d2ce2c.chunk.js.map": "/restouran/static/js/787.d9d2ce2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1c6816d.css",
-    "static/js/main.0427ccb4.js"
+    "static/css/main.7a682013.css",
+    "static/js/main.609af5a1.js"
   ]
 }
